@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@500&display=swap');
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #eff1fd;;
+}
+.odin {
+    position: fixed;
+    left: -10%;
+}
+.dva {
+    position: fixed;
+    right: 10%;
+    top: -5%;
+}
+.tri {
+    position: fixed;
+    right: -3%;
+    top: -5%;
+}
+.chetire {
+    position: fixed;
+    right: -10%;
+    top: 35%;
+}
+.pyat {
+    position: fixed;
+    bottom: -10%;
+    right: 15%;
+}
+.shest {
+    position: fixed;
+    bottom: -10%;
+    left: 20%;
+}
+.sem {
+    position: fixed;
+    bottom: -10%;
+    left: -5%;
+}
+.logo {
+    position: fixed;
+    top: 10%;
+    left: 44%;
+}
+.main {
+    font-family: 'Playfair Display';
+    font-size: 120.6px;
+    line-height: 119px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #161d6f;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 22%;
+}
+.block {
+    width: 440px;
+    height: 47px;
+    background-color: #ffe097;
+    position: fixed;
+    top: 48%;
+    left: 37%;
+}
+.discount {
+    position: absolute;
+    font-family: Poppins;
+    font-size: 26.2px;
+    line-height: 90px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #161d6f;
+    top: -20px;
+    left: 22%;
+}
+.text {
+    width: 500px;
+    height: 200px;
+    font-family: Poppins;
+    font-size: 24.4px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #161d6f;
+    position: fixed;
+    left: 35%;
+    top: 53%;
+    text-align: justify;
+}
+.text_2 {
+    font-family: Poppins;
+    font-size: 22.5px;
+    line-height: 39px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    color: #161d6f; 
+    position: fixed;
+    bottom: 25%;
+    left: 39%;
+}
+.text_3{ 
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 24.4px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #161d6f;
+    position: absolute;
+    bottom: 10%;
+    left: 44%;  
+}
+.menu {
+    position: fixed;
+    bottom: 5%;
+    left: 42%;
+    
+}
+.menu li{
+    float: left;
+    padding: 0 17px; 
+}
